@@ -1,3 +1,7 @@
+<button type="button" class="btn">スタート</button>
+<button type="button" class="btn">ストップ</button>
+<button type="button" class="btn">リセット</button>
+
 import time
 
 def convert(sec):
