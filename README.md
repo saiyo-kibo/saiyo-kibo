@@ -10,10 +10,23 @@ def convert(sec):
 start_signal = input('Push "START" to Start')
 start_time = time.time()
 
+<input type="button"
+       value="1回だけしか押せません"
+       id="START" onclick="disabled = true;">
+
 stop_signal = input('Push "STOP" to Stop')
 stop_time = time.time()
 
-stop_time - start_time = time.time()
+result = stop_time - start_time
+print(f"Stop Time：{result:.3f} sec")
+
+<input type="button"
+  value="制限を解除"
+onclick="getElementById('button1').disabled = false;">
+
+reset_signal = input('Push "RESET" to reset')
+
+<input type="reset" time="RESET" value="入力内容を消去" >
 
 print('Push "START" to Start')
 print('Push "STOP" to Stop')
