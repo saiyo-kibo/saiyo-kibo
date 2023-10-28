@@ -1,6 +1,6 @@
-<button type="button" class="btn">スタート</button>
-<button type="button" class="btn">ストップ</button>
-<button type="button" class="btn">リセット</button>
+<button type="button" class="btn">START</button>
+<button type="button" class="btn">STOP</button>
+<button type="button" class="btn">RESET</button>
 
 import time
 
