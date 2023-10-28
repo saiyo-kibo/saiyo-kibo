@@ -4,7 +4,6 @@ def convert(sec):
     minits = sec // 60
     second = sec % 60
     hour = minits // 60
-    min = minits % 60
     return f"{int(hour)}:{int(min)}:{int(second)}"
 
 start_signal = input('Push "START" to Start')
